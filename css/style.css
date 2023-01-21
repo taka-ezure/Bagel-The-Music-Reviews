@@ -1,0 +1,83 @@
+@import url(sanitize.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+#article_item{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 12px; 
+    text-align: left"
+}
+
+header{
+	margin: 30px auto;
+}
+
+/* div.container {
+    margin-top: 2.5em;
+} */
+
+div.col-3{
+    padding-right: 0%;
+}
+
+div.col-9.my-1.d-flex.align-items-center.justify-content-center{
+    padding-left: 0%;
+}
+
+body{
+    background-color: white;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+  }
+  
+  /* 背景黒色部分 */
+  .modal-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+  }
+  /* コンテンツ表示部分 */
+  .inner {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 80%;
+	padding-bottom: 30%;
+	background-color: #fff;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch; /* 慣性スクロール */
+  }
+  
+  .box-btn {
+	text-align: right;
+  }
+  
+  .btn-modal {
+	border: none;
+	appearance: none;
+	padding: 0;
+	margin-right: 0.5em;
+	background-color: transparent; /* ボタン背景を透明に */
+	cursor: pointer;
+	font-size: 3em;
+  }
+  
+  .btn-more {
+	border: none;
+	appearance: none;
+	padding: 0.3em 0.5em;
+	background-color: transparent; /* ボタン背景を透明に */
+	cursor: pointer;
+  }
