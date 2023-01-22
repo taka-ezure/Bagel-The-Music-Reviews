@@ -1,5 +1,4 @@
 @import url(sanitize.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 #article_item{
     border: none;
@@ -28,7 +27,6 @@ div.col-9.my-1.d-flex.align-items-center.justify-content-center{
 
 body{
     background-color: white;
-	font-family: 'Noto Sans JP', sans-serif;
 }
 
 
