@@ -21,6 +21,10 @@ body{
     background-color: white;
 }
 
+.mb-5.mt-2{
+	margin-bottom: 20px;
+}
+
 .modal {
 	position: fixed;
 	top: 0;
