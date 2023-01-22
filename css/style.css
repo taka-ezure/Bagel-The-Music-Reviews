@@ -70,6 +70,7 @@ body{
 	background-color: transparent; /* ボタン背景を透明に */
 	cursor: pointer;
 	font-size: 3em;
+	color: black;
   }
   
   .btn-more {
