@@ -34,16 +34,16 @@ const app = Vue.createApp({
     })
 })
 app.mount('#app')
-luxy.init();
+// luxy.init();
 
-// $(function(){
-//     $('header, main, footer').inertiaScroll({
-//       parent: $("#wrap")
+$(function(){
+    $('header, main, footer').inertiaScroll({
+      parent: $("#wrap")
 
-//       //オプションを追加する場合はここに追記
+      //オプションを追加する場合はここに追記
 
-//     });
-//   });
+    });
+  });
 
 
 $(function () {
