@@ -27,6 +27,7 @@ div.col-9.my-1.d-flex.align-items-center.justify-content-center{
 
 body{
     background-color: white;
+	color: black;
 }
 
 
@@ -70,7 +71,6 @@ body{
 	background-color: transparent; /* ボタン背景を透明に */
 	cursor: pointer;
 	font-size: 3em;
-	color: black;
   }
   
   .btn-more {
