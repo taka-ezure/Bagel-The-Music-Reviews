@@ -82,4 +82,5 @@ button{
 	padding: 0.3em 0.5em;
 	background-color: transparent; /* ボタン背景を透明に */
 	cursor: pointer;
+	color: black;
   }
