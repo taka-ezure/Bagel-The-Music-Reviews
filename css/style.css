@@ -17,8 +17,8 @@ div.col-9.my-1.d-flex.align-items-center.justify-content-center{
     padding-left: 0%;
 }
 
-.mb-5.mt-3{
-	padding: 20px;
+#logo{
+	padding: 10px;
 }
 body{
     background-color: white;
