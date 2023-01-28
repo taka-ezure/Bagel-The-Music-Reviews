@@ -11,6 +11,7 @@
 
 div.col-3.my-1.d-flex.align-items-center.justify-content-center{
     padding-right: 0%;
+	font-size: 12px;
 }
 
 div.col-9.my-1.d-flex.align-items-center.justify-content-center{
