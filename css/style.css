@@ -26,6 +26,10 @@ body{
     background-color: white;
 }
 
+p{
+	font-size: small;
+}
+
 .modal {
 	position: fixed;
 	top: 0;
