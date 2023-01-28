@@ -9,7 +9,7 @@
     text-align: left"
 }
 
-div.col-3{
+div.col-3 my-1 d-flex align-items-center justify-content-center{
     padding-right: 0%;
 }
 
