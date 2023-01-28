@@ -29,6 +29,9 @@ body{
 p{
 	font-size: small;
 	text-align: left;
+	color: #fff;
+	padding: 0% 10% 30%;
+	overflow-y: hidden;
 }
 
 .modal {
