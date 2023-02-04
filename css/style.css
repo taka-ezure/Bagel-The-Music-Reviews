@@ -31,7 +31,7 @@ html{
 }
 
 .m-0{
-	padding-top: 550px;
+	padding-top: 500px;
 	padding-bottom: 50px;
 }
 
@@ -54,7 +54,6 @@ p{
 
 .title{
 	color: #fff;
-	text-align: center;
 }
 
 .modal {
@@ -75,7 +74,6 @@ p{
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
   }
-
   /* コンテンツ表示部分 */
   .inner {
 	position: fixed;
