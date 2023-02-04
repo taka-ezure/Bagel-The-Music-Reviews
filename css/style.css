@@ -26,6 +26,9 @@ body{
     background-color: #0A231F;
 }
 
+html{
+	background-color: #0A231F;
+}
 p{
 	font-size: small;
 	text-align: left;
