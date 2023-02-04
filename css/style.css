@@ -78,7 +78,7 @@ p{
 	background-color: rgba(0, 0, 0, 0.7);
   }
 
-  /* コンテンツ表示部分 */
+  /* コンテンツ表示部分
   .inner {
 	position: fixed;
 	left: 50%;
@@ -87,8 +87,8 @@ p{
 	padding: 0% 10% 30%;
 	background-color:  #0A231F;
 	overflow-y: hidden;
-	-webkit-overflow-scrolling: touch; /* 慣性スクロール */
-  }
+	-webkit-overflow-scrolling: touch; 慣性スクロール */
+
   
   .box-btn {
 	text-align: right;
