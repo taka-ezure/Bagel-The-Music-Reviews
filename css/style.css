@@ -54,9 +54,6 @@ p{
 
 .title{
 	color: #fff;
-	text-align: center;
-	justify-content: center;
-	margin-bottom: 10px;
 }
 
 .modal {
@@ -77,8 +74,7 @@ p{
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
   }_
-
-  コンテンツ表示部分
+  /* コンテンツ表示部分 */
   .inner {
 	position: fixed;
 	left: 50%;
