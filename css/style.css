@@ -36,8 +36,11 @@ html{
 }
 
 .state{
-    display: flex;
-    justify-content: flex-end;
+	text-align: right;
+}
+
+.nav{
+	width: 20px;
 }
 
 p{
