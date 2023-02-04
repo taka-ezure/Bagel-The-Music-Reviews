@@ -43,6 +43,15 @@ p{
 	overflow-y: hidden;
 }
 
+.nav{
+	width: 30px;
+}
+
+.state{
+	width: 30px
+}
+
+
 .title{
 	color: #fff;
 }
