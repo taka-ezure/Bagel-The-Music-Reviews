@@ -21,7 +21,7 @@ $(function () {
 $.scrollify({
     section: ".page",//1ページスクロールさせたいエリアクラス名
     scrollbars: "false",//スクロールバー表示・非表示設定
-    interstitialSection: "#arti",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
+    // interstitialSection: "#arti",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
     easing: "linear", // 他にもlinearやeaseOutExpoといったjQueryのeasing指定可能
     scrollSpeed: 200, // スクロール時の速度
 });
