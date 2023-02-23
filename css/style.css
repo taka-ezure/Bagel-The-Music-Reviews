@@ -1,113 +1,98 @@
-@import url(sanitize.css);
-
-#article_item{
-    border: none;
-    background: transparent;
-    outline: none;
-    color: black;
-    font-size: 12px; 
-    text-align: left"
-}
-
-div.col-3.my-1.d-flex.align-items-center.justify-content-center{
-    padding-right: 0%;
-	font-size: 12px;
-}
-
-div.col-9.my-1.d-flex.align-items-center.justify-content-center{
-    padding-left: 0%;
-}
-
-.row{
-	margin-top: 20px;
-}
-
-body{
+body {
     background-color: #0A231F;
-}
+  }
+   
+  .wrap {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+  }
+   
+  .block {
+    font-size: 20px;
+    min-height: 100vh;
+    min-height: 100dvh;
+    text-align: center;
+  }
+      
+  #block1{
+    line-height: 100vh;
+    line-height: 100dvh;
+  }
 
-html{
-	background-color: #0A231F;
-}
-
-.m-0{
-	padding-top: 380px;
-	padding-bottom: 80px;
-}
-
-p{
-	font-size: small;
-	text-align: left;
-	color: #fff;
-	padding: 0% 10% 30%;
-	overflow-y: hidden;
-}
-
-.nav{
-	width: 30px;
-}
-
-.state{
-	width: 50px
-}
-
-
-.title{
-	color: #fff;
-	text-align: center;
-	justify-content: center;
-	margin-bottom: 10px;
-}
-
-.modal {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: none;
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
   }
   
   /* 背景黒色部分 */
   .modal-bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-  }_
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0A231F;
+  }
   /* コンテンツ表示部分 */
   .inner {
-	position: fixed;
-	left: 50%;
-	transform: translate(-50%, 0%);
-	width: 95%;
-	padding: 0% 10% 30%;
-	background-color:  #0A231F;
-	overflow-y: hidden;
-	-webkit-overflow-scrolling: touch; /* 慣性スクロール */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; /* 慣性スクロール */
   }
   
   .box-btn {
-	text-align: right;
+    text-align: right;
   }
   
   .btn-modal {
-	border: none;
-	appearance: none;
-	padding: 0;
-	margin-right: 0.5em;
-	background-color: transparent; /* ボタン背景を透明に */
-	cursor: pointer;
-	font-size: 3em;
+    border: none;
+    appearance: none;
+    padding: 0;
+    margin-right: 0.5em;
+    background-color: transparent; /* ボタン背景を透明に */
+    cursor: pointer;
+    font-size: 3em;
   }
   
   .btn-more {
-	border: none;
-	appearance: none;
-	padding: 0.3em 0.5em;
-	background-color: transparent; /* ボタン背景を透明に */
-	cursor: pointer;
-	color: black;
+    border: none;
+    appearance: none;
+    padding: 0.3em 0.5em;
+    background-color: transparent; /* ボタン背景を透明に */
+    cursor: pointer;
+  }
+
+
+
+  #close{
+    color: white;
+  }
+
+  p{
+    font-size: small;
+    text-align: left;
+    color: #fff;
+    padding: 0% 10% 30%;
+    overflow-y: hidden;
+  }
+
+  .title{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: medium;
   }
