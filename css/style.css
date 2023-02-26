@@ -1,29 +1,32 @@
 body {
     background-color: #0A231F;
   }
-   
-  .wrap {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    height: 100dvh;
-    top: 0;
-    left: 0;
-    overflow: auto;
-  }
-   
-  .block {
-    font-size: 20px;
-    min-height: 100vh;
-    min-height: 100dvh;
-    text-align: center;
-  }
-      
-  #block1{
-    line-height: 100vh;
-    line-height: 100dvh;
-  }
 
+.kv-wrapper{
+  height: 861px;
+  padding-top: 492.38px;
+}
+
+#kv{
+  height: 299.02px;
+  width: 149.67;
+}
+
+.nav{
+  width: 28.05px;
+  height: 29.02px;
+  position:absolute;
+  top: 34px;
+  left: 26px;
+}
+
+.message{
+  width: 10.48px;
+  height: 229.23px;
+  position:absolute;
+  top: 34px;
+  left: 358px;
+}
   
   .modal {
     position: fixed;
