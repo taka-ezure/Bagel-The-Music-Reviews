@@ -1,7 +1,7 @@
   $(function () {
     $('.btn-more').on('click', function () {
-        $('body').css('overflow-y', 'hidden');  // 本文の縦スクロールを無効
         $('.modal').fadeToggle();
+        $('body').css('overflow-y', 'hidden');  // 本文の縦スクロールを無効
         var sclTop = $(window).scrollTop();
         $('.inner').offset({ top: (sclTop + 40)});
     });
