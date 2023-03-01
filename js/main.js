@@ -9,7 +9,6 @@
     $('.btn-modal').on('click', function () {
         $('body').css('overflow-y','auto');     // 本文の縦スクロールを有効
         $('.modal').fadeToggle();
-        $('.inner').offset({ top: (sclTop + 40)});
     });
 });
 
