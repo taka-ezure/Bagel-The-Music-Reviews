@@ -1,20 +1,15 @@
   $(function () {
     $('.btn-more').on('click', function () {
+        $('body').css('overflow-y', 'hidden');  // 本文の縦スクロールを無効
         $('.modal').fadeToggle();
         var sclTop = $(window).scrollTop();
-        $('.inner').offset({ top: (sclTop + 10)});
+        $('.inner').offset({ top: (sclTop + 40)});
     });
 
     $('.btn-modal').on('click', function () {
+        $('body').css('overflow-y','auto');     // 本文の縦スクロールを有効
         $('.modal').fadeToggle();
-        $('.inner').offset({ top: (sclTop + 10)});
+        $('.inner').offset({ top: (sclTop + 40)});
     });
 });
 
-$.scrollify({
-    section: ".page",//1ページスクロールさせたいエリアクラス名
-    scrollbars: "false",//スクロールバー表示・非表示設定
-    // interstitialSection: "#arti",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
-    easing: "linear", // 他にもlinearやeaseOutExpoといったjQueryのeasing指定可能
-    scrollSpeed: 200, // スクロール時の速度
-});

@@ -25,9 +25,32 @@ body {
   height: 229.23px;
   position:absolute;
   top: 34px;
-  left: 358px;
+  right: 32px;
 }
-  
+
+#delete_btn{
+  position:relative;
+  width: 53.35px;
+  height: 53.35px;
+  right: 3%;
+  top: 20px;
+}
+
+.title{
+  position:relative;
+  width: 202.94px;
+  height: 40.45px;
+  left: 5%;
+} 
+
+.year{
+  position:relative;
+  width: 103px;
+  height: 22px;
+  left: 5%;
+  top: 20px;
+} 
+
   .modal {
     position: fixed;
     top: 0;
@@ -44,13 +67,14 @@ body {
     height: 100%;
     background-color: #0A231F;
   }
+  
   /* コンテンツ表示部分 */
   .inner {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
     background-color: black;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch; /* 慣性スクロール */
@@ -78,24 +102,12 @@ body {
     cursor: pointer;
   }
 
-
-
-  #close{
-    color: white;
-  }
-
-  p{
-    font-size: small;
+  .article{
+    margin-top: 35px;
+    font-size: 12px;
     text-align: left;
     color: #fff;
-    padding: 0% 10% 30%;
+    padding: 0% 5% 10%;
     overflow-y: hidden;
   }
 
-  .title{
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    font-size: medium;
-  }
