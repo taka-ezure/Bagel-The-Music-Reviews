@@ -122,7 +122,7 @@ main{
 /*===================== Navbarのコーディング ===================== */
 
   #delete_nav{
-    transform: translate(-350px);
+    transform: translate(-500px);
   }
 
   .menu-trigger.active {
