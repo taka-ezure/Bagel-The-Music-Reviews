@@ -146,7 +146,7 @@ main{
   }
 
   .menu-trigger {
-    transition: all .2s;
+    transition: all .5s;
   }
 
     /* 背景色部分 */
