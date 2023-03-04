@@ -3,13 +3,16 @@ body {
   }
 
 .kv-wrapper{
-  height: 861px;
-  padding-top: 492.38px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100%;
 }
 
 #kv{
   height: 299.02px;
   width: 149.67;
+  bottom: 41px;
+  position: absolute;
 }
 
 .nav{
