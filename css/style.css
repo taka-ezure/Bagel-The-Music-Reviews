@@ -3,8 +3,8 @@ body {
   }
 
 .kv-wrapper{
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 90vh;
+  min-height: 90dvh;
   width: 100%;
 }
 
@@ -23,7 +23,7 @@ body {
   left: 6.5%;
 }
 
-.message{
+#message{
   width: 10.48px;
   height: 229.23px;
   position:absolute;
@@ -32,7 +32,7 @@ body {
 }
 
 main{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 #delete_article{
@@ -148,7 +148,7 @@ main{
     transition: all .2s;
   }
 
-    /* 背景黒色部分 */
+    /* 背景色部分 */
     .overlay.open {
       position: absolute;
       top: 0;
