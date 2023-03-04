@@ -66,6 +66,15 @@ main{
     height: 100%;
     display: none;
   }
+
+  .article{
+    margin-top: 35px;
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+    padding: 0% 5% 10%;
+    overflow-y: hidden;
+  }
   
   /* 背景黒色部分 */
   .modal-bg {
@@ -109,14 +118,6 @@ main{
     cursor: pointer;
   }
 
-  .article{
-    margin-top: 35px;
-    font-size: 12px;
-    text-align: left;
-    color: #fff;
-    padding: 0% 5% 10%;
-    overflow-y: hidden;
-  }
 
 /*===================== Navbarのコーディング ===================== */
 
