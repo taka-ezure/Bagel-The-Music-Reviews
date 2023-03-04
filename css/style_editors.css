@@ -1,0 +1,26 @@
+body {
+  background-color: #9D009D;
+}
+
+/* navbar 背景色部分 */
+.overlay.open {
+  background-color: #9D009D;
+}
+
+.editors_contributor {
+  position: absolute;
+  left: 6.5%;
+  color: #fff;
+  font-size: 12px;
+}
+
+.editors_contributor ul{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  padding: 0%;
+}
+
+.editors_contributor li {
+  list-style:none;
+  margin-top: 3px;
+}
