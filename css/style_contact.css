@@ -1,0 +1,26 @@
+body {
+  background-color: #000000;
+}
+
+/* navbar 背景色部分 */
+.overlay.open {
+  background-color: #000000;
+}
+
+.contact_title {
+  position: absolute;
+  left: 6.5%;
+}
+
+#contact_character{
+  width: 168.56px;
+  height: 158.55px;
+  position:absolute;
+  left: 37%;
+  top: 38%;
+}
+
+.contact_sns{
+  width: 31.11px;
+  height: 31.11px;
+}
