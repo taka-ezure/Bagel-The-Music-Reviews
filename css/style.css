@@ -145,9 +145,9 @@ main{
     display: none;
   }
 
-  .menu-trigger {
+  /* .menu-trigger {
     transition: all .5s;
-  }
+  } */
 
     /* 背景色部分 */
     .overlay.open {
@@ -157,7 +157,6 @@ main{
       width: 100%;
       height: 100%;
       background-color: #0A231F;
-      transition: all .5s;
       z-index: 2;
     }
 
