@@ -33,10 +33,7 @@ body {
 }
 
 main{
-  min-height: 100vh;
-  min-height: 100dvh;
-  width: 100%;
-  position: relative;
+  margin-top: 60px;
 }
 
 #delete_article{
