@@ -11,7 +11,7 @@ body {
 #kv{
   height: 299.02px;
   width: 149.67;
-  bottom: 41px;
+  bottom: 5%;
   position: absolute;
 }
 
@@ -19,16 +19,16 @@ body {
   width: 28.05px;
   height: 29.02px;
   position:absolute;
-  top: 34px;
-  left: 26px;
+  top: 4%;
+  left: 6.5%;
 }
 
 .message{
   width: 10.48px;
   height: 229.23px;
   position:absolute;
-  top: 34px;
-  right: 32px;
+  top: 4%;
+  right: 5.5%;
 }
 
 main{
