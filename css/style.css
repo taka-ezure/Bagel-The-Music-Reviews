@@ -31,6 +31,10 @@ body {
   right: 32px;
 }
 
+main{
+  margin-top: 20px;
+}
+
 #delete_btn{
   position:relative;
   width: 53.35px;
