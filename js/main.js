@@ -1,6 +1,7 @@
   $(function () {
     $('.btn-more').on('click', function () {
         $('body').css('overflow', 'hidden');  // 本文の縦スクロールを無効
+        $('body').css('height', '100%');  // 本文の縦スクロールを無効
         $('.modal').fadeToggle();
         var sclTop = $(window).scrollTop();
         $('.inner').offset({ top: (sclTop + 40)});
@@ -9,6 +10,7 @@
     $('.btn-modal').on('click', function () {
         $('.modal').fadeToggle();
         $('body').css('overflow','auto');     // 本文の縦スクロールを有効
+        $('body').css('height', 'auto');  // 本文の縦スクロールを無効
     });
 });
 
