@@ -57,14 +57,9 @@ body {
   top: 20px;
 } 
 
-  /* .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-  } */
+  .modal {
+    overscroll-behavior-y: contain; /* スクロール可能な要素に付与する必要有り */
+  }
 
   .article{
     margin-top: 35px;
