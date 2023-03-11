@@ -14,7 +14,7 @@ body {
 #kv{
   height: 299.02px;
   width: 149.67;
-  bottom: 5%;
+  bottom: 6.4%;
   position: absolute;
 }
 
@@ -141,16 +141,20 @@ main{
     left: 270px;
     top: 30px;
     transform: translateZ(0);
-    transition: all .5s;
+    /* transition: all .5s; */
   }
 
   .menu-trigger.active #nav_btn {
     display: none;
   }
 
-  /* .menu-trigger {
-    transition: all .5s;
-  } */
+  .menu-trigger {
+    width: 28.05px;
+    height: 29.02px;
+    position:absolute;
+    top: 4%;
+    left: 6.5%;
+  }
 
     /* 背景色部分 */
     /* .overlay.open {
@@ -173,7 +177,7 @@ main{
     left: 0;
     z-index: 10;
     transform: translate(-350px);
-    transition: all .5s;
+    /* transition: all .5s; */
   }
   
   nav.open {
