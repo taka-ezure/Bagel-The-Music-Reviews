@@ -181,6 +181,10 @@ body {
     margin-top: 50px;
   }
 
+  nav ul{
+    margin-top: 130px;
+  }
+
   #top_nav{
     width: 60px;
   }
