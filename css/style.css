@@ -6,8 +6,8 @@ body {
   }
 
 .kv-wrapper{
-  min-height: 90vh;
-  min-height: 90dvh;
+  min-height: 100vh;
+  /* min-height: 100dvh; */
   width: 100%;
 }
 
@@ -32,10 +32,6 @@ body {
   position:absolute;
   top: 4%;
   right: 5.5%;
-}
-
-main{
-  margin-top: 150px;
 }
 
 #delete_article{
