@@ -185,6 +185,10 @@ main{
     margin-top: 50px;
   }
 
+  #top_nav{
+    width: 60px;
+  }
+
   #about_us_nav{
     width: 127.17px;
     height: 17.4px;
