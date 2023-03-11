@@ -165,7 +165,7 @@ body {
     padding-top: 100px;
     background-color: #CC4700;
     position: fixed;
-    top: 0;
+    top: -100px;
     left: 0;
     z-index: 10;
     transform: translate(-350px);
