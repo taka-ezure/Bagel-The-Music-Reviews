@@ -7,13 +7,15 @@ var sclTop;
         $('.modal').fadeToggle();
         sclTop = $(window).scrollTop();
         $('.inner').offset({ top: (sclTop + 40)});
+        $('body').css('top', '-' + sclTop + 'px');
     });
 
     $('.btn-modal').on('click', function () {
         $('.modal').fadeToggle();
         // $('body').css('overflow','auto');     // 本文の縦スクロールを有効
         $('body').css('position', '');  // 本文の縦スクロールを無効
-        $('body').offset({ top: sclTop});
+        $('body').css('top', '');
+        $(window).scrollTop(sclTop);
     });
 });
 
