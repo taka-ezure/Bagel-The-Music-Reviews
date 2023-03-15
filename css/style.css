@@ -1,159 +1,163 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 body {
-    background-color: #0A231F;
-    font-family: 'Noto Sans JP', sans-serif;
-    }
+  background-color: #0A231F;
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
-.kv-wrapper{
+.kv-wrapper {
   height: 100lvh;
   width: 100%;
 }
 
-#kv{
+#kv {
   height: 299.02px;
   width: 149.67;
   bottom: 6.4%;
   position: absolute;
 }
 
-#nav_btn{
+#nav_btn {
   width: 28.05px;
   height: 29.02px;
-  position:absolute;
+  position: absolute;
   top: 4%;
   left: 6.5%;
 }
 
-#message{
+#message {
   width: 10.48px;
   height: 229.23px;
-  position:absolute;
+  position: absolute;
   top: 4%;
   right: 5.5%;
 }
 
-#delete_article{
-  position:relative;
+#delete_article {
+  position: relative;
   width: 53.35px;
   height: 53.35px;
   right: 3%;
   top: 20px;
 }
 
-.title{
-  position:relative;
+.title {
+  position: relative;
   width: 202.94px;
   height: 40.45px;
   left: 5%;
-} 
+}
 
-.year{
-  position:relative;
+.year {
+  position: relative;
   width: 103px;
   height: 22px;
   left: 5%;
   top: 20px;
-} 
-
-.mordal{
-  overscroll-behavior: contain; /* 追加 20230314 */
 }
 
-  .article{
-    margin-top: 35px;
-    font-size: 12px;
-    text-align: left;
-    color: #fff;
-    padding: 0% 5% 10%;
-    overflow-y: hidden;
-  }
-  
-  /* 背景黒色部分 */
-  .modal-bg {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #0A231F;
-  }
-  
-  /* コンテンツ表示部分 */
-  .inner {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    height: 90%;
-    background-color: black;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch; /* 慣性スクロール */
-  }
-
-
-body::-webkit-scrollbar{
-  display:none;
+.mordal {
+  overscroll-behavior: contain;
+  /* 追加 20230314 */
 }
-  
-  .box-btn {
-    text-align: right;
-  }
-  
-  .btn-modal {
-    border: none;
-    appearance: none;
-    padding: 0;
-    margin-right: 0.5em;
-    background-color: transparent; /* ボタン背景を透明に */
-    cursor: pointer;
-    font-size: 3em;
-  }
-  
-  .btn-more {
-    border: none;
-    appearance: none;
-    padding: 0.3em 0.5em;
-    background-color: transparent; /* ボタン背景を透明に */
-    cursor: pointer;
-  }
+
+.article {
+  margin-top: 35px;
+  font-size: 12px;
+  text-align: left;
+  color: #fff;
+  padding: 0% 5% 10%;
+  overflow-y: hidden;
+}
+
+/* 背景黒色部分 */
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #0A231F;
+}
+
+/* コンテンツ表示部分 */
+.inner {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background-color: black;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  /* 慣性スクロール */
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.box-btn {
+  text-align: right;
+}
+
+.btn-modal {
+  border: none;
+  appearance: none;
+  padding: 0;
+  margin-right: 0.5em;
+  background-color: transparent;
+  /* ボタン背景を透明に */
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.btn-more {
+  border: none;
+  appearance: none;
+  padding: 0.3em 0.5em;
+  background-color: transparent;
+  /* ボタン背景を透明に */
+  cursor: pointer;
+}
 
 
 /*===================== Navbarのコーディング ===================== */
 
-  #delete_nav{
-    transform: translate(-500px);
-  }
+#delete_nav {
+  transform: translate(-500px);
+}
 
-  .menu-trigger.active {
-    z-index: 100;
-  }
+.menu-trigger.active {
+  z-index: 100;
+}
 
-  .menu-trigger.active #delete_nav {
-    display: initial;
-    position: fixed;
-    width: 53.35px;
-    height: 53.35px;
-    z-index: 200;
-    left: 270px;
-    top: 30px;
-    transform: translateZ(0);
-    transition: all .5s;
-  }
+.menu-trigger.active #delete_nav {
+  display: initial;
+  position: fixed;
+  width: 53.35px;
+  height: 53.35px;
+  z-index: 200;
+  left: 270px;
+  top: 30px;
+  transform: translateZ(0);
+  transition: all .5s;
+}
 
-  .menu-trigger.active #nav_btn {
-    display: none;
-  }
+.menu-trigger.active #nav_btn {
+  display: none;
+}
 
-  .menu-trigger {
-    /* transition: all .5s; */
-    width: 28.05px;
-    height: 29.02px;
-    position:absolute;
-    top: 4%;
-    left: 6.5%;
-  }
+.menu-trigger {
+  /* transition: all .5s; */
+  width: 28.05px;
+  height: 29.02px;
+  position: absolute;
+  top: 4%;
+  left: 6.5%;
+}
 
-    /* 背景色部分 */
-    /* .overlay.open {
+/* 背景色部分 */
+/* .overlay.open {
       position: absolute;
       top: 0;
       left: 0;
@@ -163,52 +167,53 @@ body::-webkit-scrollbar{
       z-index: 2;
     } */
 
-  nav {
-    width: 350px;
-    height: 150%;
-    padding-top: 100px;
-    background-color: #CC4700;
-    position: fixed;
-    top: -100px;
-    left: 0;
-    z-index: 10;
-    transform: translate(-350px);
-    transition: all .5s;
-  }
-  
-  nav.open {
-    transform: translateZ(0);
-  }
+nav {
+  width: 350px;
+  height: 150%;
+  padding-top: 100px;
+  background-color: #CC4700;
+  position: fixed;
+  top: -100px;
+  left: 0;
+  z-index: 10;
+  transform: translate(-350px);
+  transition: all .5s;
+}
 
-  nav li {
-    list-style:none;
-    margin-top: 50px;
-  }
+nav.open {
+  transform: translateZ(0);
+}
 
-  nav ul{
-    margin-top: 130px;
-  }
+nav li {
+  list-style: none;
+  margin-top: 50px;
+}
 
-  #top_nav{
-    width: 60px;
-  }
+nav ul {
+  margin-top: 130px;
+}
 
-  #about_us_nav{
-    width: 127.17px;
-    height: 17.4px;
-  }
+#top_nav {
+  width: 60px;
+}
 
-  #editors_nav{
-    width: 254.76px;
-    height: 19.9px;
-  }
+#about_us_nav {
+  width: 127.17px;
+  height: 17.4px;
+}
 
-  #contact_nav{
-    width: 133.23px;
-    height: 16.56px;
-  }
+#editors_nav {
+  width: 254.76px;
+  height: 19.9px;
+}
+
+#contact_nav {
+  width: 133.23px;
+  height: 16.56px;
+}
+
 /*===================== Navbarのコーディング ===================== */
 
-#footer{
+#footer {
   width: 231.42px;
 }
