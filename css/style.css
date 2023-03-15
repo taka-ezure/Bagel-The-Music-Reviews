@@ -3,11 +3,6 @@
 body {
     background-color: #0A231F;
     font-family: 'Noto Sans JP', sans-serif;
-    width: 100%;
-    }
-
-    body::-webkit-scrollbar {
-      display: none;
     }
 
 .kv-wrapper{
@@ -61,9 +56,9 @@ body {
   top: 20px;
 } 
 
-  .modal {
-    overscroll-behavior-y: contain; /* スクロール可能な要素に付与する必要有り */
-  }
+.mordal{
+  overscroll-behavior: contain; /* 追加 20230314 */
+}
 
   .article{
     margin-top: 35px;
@@ -93,6 +88,11 @@ body {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch; /* 慣性スクロール */
   }
+
+
+body::-webkit-scrollbar{
+  display:none;
+}
   
   .box-btn {
     text-align: right;
