@@ -33,6 +33,11 @@ body {
   right: 5.5%;
 }
 
+.row{
+  padding: 0px 1.7%;
+}
+
+
 #delete_article {
   position: relative;
   width: 53.35px;
@@ -56,11 +61,6 @@ body {
   top: 20px;
 }
 
-.mordal {
-  position: fixed;
-  /* 追加 20230314 */
-}
-
 .article {
   margin-top: 35px;
   font-size: 12px;
@@ -68,6 +68,11 @@ body {
   color: #fff;
   padding: 0% 5% 10%;
   overflow-y: hidden;
+}
+
+.mordal {
+  position: fixed;
+  /* 追加 20230314 */
 }
 
 /* 背景黒色部分 */
@@ -85,7 +90,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 95%;
-  height: 97%;
+  height: 98%;
   background-color: black;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;

@@ -7,7 +7,7 @@ $(function () {
     // $('.modal').css('display', 'block');  // 本文の縦スクロールを無効
     sclTop = $(window).scrollTop();
     // $('.inner').offset({ top: (sclTop + 40) });
-    $('.inner').offset({ top: (sclTop + '5%') });
+    $('.inner').offset({ top: (sclTop + '2%') });
   });
 
   $('.btn-modal').on('click', function () {
