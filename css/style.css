@@ -50,14 +50,14 @@ body {
   position: relative;
   width: 202.94px;
   height: 40.45px;
-  left: 5%;
+  left: 7%;
 }
 
 .year {
   position: relative;
   width: 103px;
   height: 22px;
-  left: 5%;
+  left: 7%;
   top: 20px;
 }
 
@@ -66,8 +66,10 @@ body {
   font-size: 12px;
   text-align: left;
   color: #fff;
-  padding: 0% 5% 10%;
+  padding: 0% 7% 10%;
   overflow-y: hidden;
+  line-height : 23px;
+  letter-spacing: 0.015em;
 }
 
 .mordal {
