@@ -3,7 +3,6 @@
 body {
   background-color: #0A231F;
   font-family: 'Noto Sans JP', sans-serif;
-  overflow-y: scroll;
 }
 
 .kv-wrapper {
@@ -82,19 +81,15 @@ body {
 /* コンテンツ表示部分 */
 .inner {
   position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 97%;
   background-color: black;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   /* 慣性スクロール */
-}
-
-
-body::-webkit-scrollbar {
-  display: none;
 }
 
 .box-btn {
