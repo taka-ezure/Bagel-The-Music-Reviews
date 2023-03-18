@@ -3,7 +3,6 @@
 body {
   background-color: #0A231F;
   font-family: 'Noto Sans JP', sans-serif;
-    overflow-y: scroll;
 }
 
 .kv-wrapper {
@@ -73,18 +72,22 @@ body {
   letter-spacing: 0.015em;
 }
 
+/* 背景固定対応（3/18）
+========================== */
 
-
-/* .btn{
-  border: none;
-  outline: none;
-  background: transparent;
-} */
-
-.modal {
-  position: fixed;
-  /* 追加 20230314 */
+body.fixed {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
 }
+
+.modal{
+  position: fixed;
+}
+
+/* ========================== */
+
 
 /* 背景黒色部分 */
 .modal-bg {
@@ -92,6 +95,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #0A231F;
+  display: none;  /* 追加　背景固定対応（3/18） */
 }
 
 /* コンテンツ表示部分 */
