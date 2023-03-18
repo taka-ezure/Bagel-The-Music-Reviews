@@ -3,6 +3,7 @@
 body {
   background-color: #0A231F;
   font-family: 'Noto Sans JP', sans-serif;
+  overflow-y: scroll;
 }
 
 .kv-wrapper {
@@ -57,7 +58,7 @@ body {
 }
 
 .mordal {
-  overscroll-behavior: contain;
+  position: fixed;
   /* 追加 20230314 */
 }
 
