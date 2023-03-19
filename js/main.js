@@ -14,8 +14,8 @@ $(function () {
   $('.btn-modal').on('click', function () {
     $('.modal').fadeToggle();
     $('body').css('overflow', 'auto');     // 本文の縦スクロールを有効
-    $('body').removeClass('fixed');
-    $('body').css('top', sclTop );
+    $('body').removeClass('fixed').css({'top': 0});
+    $('body').css('top',  sclTop);
     // $('body').css('position', 'static'); // 本文の縦スクロールを無効
     // $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
   });
