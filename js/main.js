@@ -5,7 +5,7 @@ $(function () {
     // $('body').css('position', 'fixed');  // 本文の縦スクロールを無効
     // $('.modal').css('display', 'block');  // 本文の縦スクロールを無効
     sclTop = $(window).scrollTop();
-    // $('body').css('overflow', 'hidden');  // 本文の縦スクロールを無効
+    $('body').css('overflow', 'hidden');  // 本文の縦スクロールを無効
 		$('body').addClass('fixed').css({'top': sclTop});
     // $('.inner').offset({ top: (sclTop + 40) });
     $('.inner').offset({ top: (sclTop + '2%') });
@@ -13,9 +13,9 @@ $(function () {
 
   $('.btn-modal').on('click', function () {
     $('.modal').fadeToggle();
-    // $('body').css('overflow', 'auto');     // 本文の縦スクロールを有効
-    $('body').removeClass('fixed').css({'top': 0});
-    window.scrollTo( 0 , sclTop );
+    $('body').css('overflow', 'auto');     // 本文の縦スクロールを有効
+    $('body').removeClass('fixed');
+    $('body').css('top', sclTop );
     // $('body').css('position', 'static'); // 本文の縦スクロールを無効
     // $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
   });

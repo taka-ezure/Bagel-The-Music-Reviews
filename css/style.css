@@ -13,7 +13,7 @@ body {
 #kv {
   height: 299.02px;
   width: 149.67;
-  bottom: 3.2%;
+  bottom: 2.1%;
   position: absolute;
 }
 
@@ -95,7 +95,6 @@ body.fixed {
   width: 100%;
   height: 100%;
   background-color: #0A231F;
-  display: none;  /* 追加　背景固定対応（3/18） */
 }
 
 /* コンテンツ表示部分 */
@@ -104,8 +103,8 @@ body.fixed {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
-  height: 98%;
+  width: 90%;
+  height: 90%;
   background-color: black;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
