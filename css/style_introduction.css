@@ -16,6 +16,13 @@ body {
 .text{
   margin-top: 35px;
   font-size: 12px;
-  margin-right: 6.5%;
+  margin-right: 15%;
+  margin-bottom: 8%;
   color: #fff;
+  line-height : 25px;
+  letter-spacing: 0.010em;
+}
+
+#jobun {
+  width: 139px;
 }
