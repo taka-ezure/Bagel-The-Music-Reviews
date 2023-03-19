@@ -65,7 +65,7 @@ body {
   margin-top: 35px;
   font-size: 12px;
   text-align: left;
-  color: #fff;
+  color: #CCCCCC;
   padding: 0% 7% 10%;
   overflow-y: hidden;
   line-height : 23px;
@@ -209,22 +209,19 @@ nav ul {
 }
 
 #top_nav {
-  width: 60px;
+  width: 36.1px;
 }
 
-#about_us_nav {
-  width: 127.17px;
-  height: 17.4px;
+#introsuction_nav {
+  width: 141.57px;
 }
 
-#editors_nav {
-  width: 254.76px;
-  height: 19.9px;
+#staff_nav {
+  width: 51.16px;
 }
 
 #contact_nav {
-  width: 133.23px;
-  height: 16.56px;
+  width: 110.23px;
 }
 
 /*===================== Navbarのコーディング ===================== */
