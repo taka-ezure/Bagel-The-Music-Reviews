@@ -60,12 +60,10 @@ body {
 } */
 
 .article {
-  margin-top: 35px;
   font-size: 12px;
   text-align: left;
   color: #CCCCCC;
-  margin: 35px 30px 10%;
-  overflow-y: hidden;
+  padding: 35px 30px 10% 30px;
   line-height : 23px;
   letter-spacing: 0.015em;
 }
@@ -106,6 +104,7 @@ body.fixed {
   height: 90%;
   background-color: black;
   overflow-y: scroll;
+  overflow-x: none;
   -webkit-overflow-scrolling: touch;
   /* 慣性スクロール */
 }

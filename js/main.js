@@ -17,7 +17,7 @@ $(function () {
     $('body').removeClass('fixed').css({'top': sclTop});
     // window.scrollTo(0, sclTop);
     // $('body').css('position', 'static'); // 本文の縦スクロールを無効
-    $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
+    // $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
   });
 });
 
