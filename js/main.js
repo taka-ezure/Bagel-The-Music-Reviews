@@ -1,7 +1,11 @@
 var sclTop
+var target
+var modal
 $(function () {
   $('.btn-more').on('click', function () {
-    $('.modal').fadeToggle();
+    target = $(this).data('target');
+    modal = document.getElementById(target);
+    $(modal).fadeToggle();
     // $('body').css('position', 'fixed');  // 本文の縦スクロールを無効
     // $('.modal').css('display', 'block');  // 本文の縦スクロールを無効
     sclTop = $(window).scrollTop();
@@ -9,10 +13,11 @@ $(function () {
 		$('body').addClass('fixed').css({'top': sclTop});
     // $('.inner').offset({ top: (sclTop + 40) });
     $('.inner').offset({ top: (sclTop + '2%') });
+
   });
 
   $('.btn-modal').on('click', function () {
-    $('.modal').fadeToggle();
+    $(modal).fadeToggle();
     $('body').css('overflow', 'auto');     // 本文の縦スクロールを有効
     $('body').removeClass('fixed').css({'top': sclTop});
     // window.scrollTo(0, sclTop);
@@ -35,3 +40,5 @@ $('.menu-trigger').on('click', function () {
   }
 });
   /*===================== Navbarのコーディング ===================== */
+
+  
