@@ -48,25 +48,23 @@ body {
 
 .title {
   position: relative;
-  width: 202.94px;
-  height: 40.45px;
-  left: 7%;
+  width: 366.81px;
 }
 
-.year {
+/* .year {
   position: relative;
   width: 103px;
   height: 22px;
   left: 7%;
   top: 20px;
-}
+} */
 
 .article {
   margin-top: 35px;
   font-size: 12px;
   text-align: left;
   color: #CCCCCC;
-  padding: 0% 7% 10%;
+  margin: 35px 30px 10%;
   overflow-y: hidden;
   line-height : 23px;
   letter-spacing: 0.015em;
@@ -84,6 +82,7 @@ body.fixed {
 
 .modal{
   position: fixed;
+  display: none;
 }
 
 /* ========================== */
