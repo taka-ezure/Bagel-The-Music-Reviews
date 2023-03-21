@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+.iOS_body{
+  overflow-w: hidden;
+}
+
 .kv-wrapper {
   height: 100lvh;
   width: 100%;
