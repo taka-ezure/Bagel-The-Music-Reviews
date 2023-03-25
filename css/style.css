@@ -233,5 +233,11 @@ nav ul {
 
 #footer {
   width: 231.42px;
+  bottom: 5%;
+  position: absolute;
+}
+
+#footer_other {
+  width: 231.42px;
 }
 
