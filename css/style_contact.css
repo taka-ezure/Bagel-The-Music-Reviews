@@ -23,7 +23,7 @@ body {
   width: 229px;
   position:absolute;
   bottom: 12%;
-  z-index: 10;
+  z-index: 2;
 }
 
 .contact_sns{
