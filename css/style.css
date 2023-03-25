@@ -12,10 +12,10 @@ body {
   overflow-y: hidden;
 }
 
-.kv-wrapper {
+/* .kv-wrapper {
   height: 100lvh;
   width: 100%;
-}
+} */
 
 .carousel-item{
   height: 100lvh;
@@ -29,12 +29,14 @@ body {
   position: absolute;
 }
 
+
 #nav_btn {
   width: 28.05px;
   height: 29.02px;
   position: absolute;
   top: 4%;
   left: 6.5%;
+  z-index: 200;
 }
 
 #message {
@@ -43,6 +45,7 @@ body {
   position: absolute;
   top: 4%;
   right: 5.5%;
+  z-index: 100;
 }
 
 .row{
