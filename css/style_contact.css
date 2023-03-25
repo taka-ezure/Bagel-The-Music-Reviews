@@ -12,18 +12,19 @@ body {
   left: 6.5%;
 }
 
+
 #email_address{
   width: 229px;
-  position:absolute;
-  bottom: 12%;
   z-index: 1;
+  position: absolute;
+  bottom: 12%;
 }
 
 #contact_wolf{
   width: 229px;
-  position:absolute;
-  bottom: 12%;
   z-index: 2;
+  position: absolute;
+  bottom: 12%;
 }
 
 .contact_sns{
