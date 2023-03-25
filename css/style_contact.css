@@ -12,10 +12,18 @@ body {
   left: 6.5%;
 }
 
+#email_address{
+  width: 229px;
+  position:absolute;
+  bottom: 12%;
+  z-index: 1;
+}
+
 #contact_wolf{
   width: 229px;
   position:absolute;
   bottom: 12%;
+  z-index: 10;
 }
 
 .contact_sns{
@@ -23,10 +31,12 @@ body {
   height: 31.11px;
 }
 
-#contact_wolf {
-  animation: rotate-anime 3s linear infinite;
+
+
+#email_address {
+  animation: rotate-anime 4s linear infinite;
 }
 @keyframes rotate-anime {
   0%  {transform: rotate(0);}
   100%  {transform: rotate(360deg);}
-}
+} 
