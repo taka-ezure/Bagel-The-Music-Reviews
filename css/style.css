@@ -14,7 +14,10 @@ body {
 
 .kv-wrapper {
   height: 100svh;
-  width: 100%;
+}
+
+#pool{
+  height: 100svh;
 }
 
 /* .carousel-item{
@@ -22,17 +25,18 @@ body {
   width: 100%;
 } */
 
-.kv-wrapper .img-fluid {
+/* .kv-wrapper .img-fluid {
   height: 100svh;
   width: 100%;
-}
+} */
 
-/* #kv {
+#kv {
   height: 299.02px;
   width: 149.67;
   bottom: 2.1%;
   position: absolute;
-} */
+  z-index: 8;
+}
 
 
 #nav_btn {
