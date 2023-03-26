@@ -7,7 +7,7 @@ body {
 }
 
 .iOS_body{
-  overflow-w: hidden;
+  /* overflow-w: hidden; */
   overflow-x: hidden;
   overflow-y: hidden;
 }
