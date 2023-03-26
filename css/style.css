@@ -16,7 +16,7 @@ body {
   height: 100svh;
 }
 
-#carouselExampleFade img{
+.carousel-inner img{
   height: 100svh;
 }
 
