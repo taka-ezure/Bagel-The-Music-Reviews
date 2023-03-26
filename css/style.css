@@ -13,17 +13,17 @@ body {
 }
 
 .kv-wrapper {
-  height: 100lvh;
+  height: 100svh;
   width: 100%;
 }
 
-.carousel-item{
-  height: 100lvh;
+/* .carousel-item{
+  height: 100svh;
   width: 100%;
-}
+} */
 
 .kv-wrapper .img-fluid {
-  height: 100lvh;
+  height: 100svh;
   width: 100%;
 }
 
