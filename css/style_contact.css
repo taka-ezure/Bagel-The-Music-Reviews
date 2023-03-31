@@ -35,7 +35,7 @@ body {
 
 
 #email_address {
-  animation: rotate-anime 4s linear infinite;
+  animation: rotate-anime 8s linear infinite;
 }
 @keyframes rotate-anime {
   0%  {transform: rotate(0);}
