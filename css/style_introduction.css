@@ -12,14 +12,12 @@ body {
   left: 6.5%;
   top: 14.4%;
   width: 78.6%;
-  height: 95.6%;
 }
 
 .text p{
   margin-top: 28px;
   text-align: justify;
   font-size: 12px;
-  margin-bottom: 8%;
   color: #CCCCCC;
   line-height : 25px;
   letter-spacing: 0.010em;
@@ -35,8 +33,7 @@ body {
 
 #footer_intro {
   width: 231.42px;
-  position: absolute;
-  margin-top: 10%;
+  position: relative;
+  margin: 10% 0px 42px 8.4%;
   bottom: 5%;
-  margin-left: 8.4%;
 }
