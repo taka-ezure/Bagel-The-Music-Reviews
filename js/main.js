@@ -12,7 +12,7 @@ $(function () {
     $('body').css('overflow', 'hidden');  // 本文の縦スクロールを無効
 		// $('body').addClass('fixed').css({'top': sclTop});
     // $('.inner').offset({ top: (sclTop + 40) });
-    $('.inner').offset({ top: (sclTop + '2%') });
+    $('.inner').offset({ top: (sclTop + '4.7%') });
 
   });
 
