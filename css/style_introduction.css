@@ -11,12 +11,14 @@ body {
   position: absolute;
   left: 6.5%;
   top: 14.4%;
+  width: 78.6%;
+  height: 95.6%;
 }
 
-.text{
-  margin-top: 35px;
+.text p{
+  margin-top: 28px;
+  text-align: justify;
   font-size: 12px;
-  margin-right: 15%;
   margin-bottom: 8%;
   color: #CCCCCC;
   line-height : 25px;
@@ -24,15 +26,17 @@ body {
 }
 
 .title_jobun p{
-  margin-top: 10px;
+  margin-bottom: 0%;
   font-size: 20px;
-  color: #CCCCCC;
-  /* font-weight:bold */
+  color: #00FF00;
+  font-weight: 400;
 }
 
 
 #footer_intro {
   width: 231.42px;
-  left: -6.5%;
-  position: relative;
+  position: absolute;
+  margin-top: 10%;
+  bottom: 5%;
+  margin-left: 8.4%;
 }
