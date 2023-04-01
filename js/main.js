@@ -26,7 +26,6 @@ $(function () {
   });
 });
 
-
 /*===================== Navbarのコーディング ===================== */
 $('.menu-trigger').on('click', function () {
   if ($(this).hasClass('active')) {
@@ -40,5 +39,21 @@ $('.menu-trigger').on('click', function () {
   }
 });
   /*===================== Navbarのコーディング ===================== */
+
+  /*===================== 固定バーのコーディング ===================== */
+  var wrapper = $(".wrapper");
+    $(window).on('load scroll', function () {
+      if ($(this).scrollTop() > 1 && wrapper.hasClass('is-fixed') == false) {
+        wrapper.css("background-color", "#1C2C27");
+        $('#yoko_logo').css('display', 'block');
+        wrapper.addClass('is-fixed');
+      }
+      else if ($(this).scrollTop() < 1 && wrapper.hasClass('is-fixed') == true) {
+        wrapper.removeClass('is-fixed');
+        wrapper.css("background-color", "transparent");
+        $('#yoko_logo').css('display', 'none');
+    }
+  });
+  /*===================== 固定バーのコーディング ===================== */
 
   

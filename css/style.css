@@ -15,7 +15,6 @@ body {
 /* .kv-wrapper {
   height: 100svh;
 } */
-
 .carousel-inner img{
   height: 103lvh;
 }
@@ -27,47 +26,28 @@ body {
   height: 252.41px;
   bottom: 71px;
   position: absolute;
-  z-index: 8;
+  z-index: 1;
 }
 
 #scroll_bar{
   height: 159.62px;
   bottom: -105px;
   position: absolute;
-  z-index: 10;
-}
-
-#nav_btn {
-  width: 28.05px;
-  height: 29.02px;
-  position: absolute;
-  top: 4%;
-  left: 6.5%;
-  z-index:  5;
+  z-index: 1;
 }
 
 #message {
   width: 10.48px;
   height: 229.23px;
   position: absolute;
-  top: 4%;
-  right: 5.5%;
+  top: 15.49px;
+  right: 24px;
   z-index: 6;
 }
 
 .row{
   padding: 0px 1.7%;
   margin-top: 106px;
-}
-
-
-#delete_article {
-  position: relative;
-  width: 53.35px;
-  height: 53.35px;
-  right: 0%;
-  top: 8px;
-  z-index: 10;
 }
 
 .title {
@@ -192,9 +172,43 @@ body.fixed {
   /* transition: all .5s; */
   width: 28.05px;
   height: 29.02px;
+  /* position: absolute;
+  top: 25px;
+  left: 6.5%; */
+  margin-top: 15.49px;
+  margin-left: 24px;
+}
+
+#nav_btn {
+  width: 28.05px;
+  height: 29.02px;
+  z-index:  5;
+}
+
+#delete_article {
+  position: relative;
+  width: 53.35px;
+  height: 53.35px;
+  right: 0%;
+  top: 8px;
+  z-index: 10;
+}
+
+#yoko_logo{
+  width: 137px;
+  height: 33px;
   position: absolute;
-  top: 4%;
-  left: 6.5%;
+  top: 14px;
+  display: none;
+}
+
+.wrapper{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  background-color:transparent;
 }
 
 /* 背景色部分 */
@@ -216,7 +230,7 @@ nav {
   position: fixed;
   top: -100px;
   left: 0;
-  z-index: 10;
+  z-index: 50;
   transform: translate(-350px);
   transition: all .5s;
 }
