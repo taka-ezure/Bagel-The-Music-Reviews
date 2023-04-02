@@ -26,7 +26,11 @@ $(function () {
     // window.scrollTo(0, sclTop);
     // $('body').css('position', 'static'); // 本文の縦スクロールを無効
     // $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
-  });
+  }); // ローディング
+
+  setTimeout(function () {
+    $('.loader').fadeOut(500);
+  }, 1000); // 5秒後にfadeOut処理
 });
 /*===================== Navbarのコーディング ===================== */
 
@@ -58,18 +62,7 @@ $(window).on('load scroll', function () {
 /*===================== 固定バーのコーディング ===================== */
 
 /*===================== ローディングのコーディング ===================== */
-
-$(function () {
-  function end_loader() {
-    $('.loader').fadeOut(800);
-  }
-
-  $(window).on('load', function () {
-    setTimeout(function () {
-      end_loader();
-    }, 1000);
-  });
-}); // $(function(){
+// $(function(){
 //   var flg = null;
 //   var check_access = function () {
 //     // ★sessionStorageの値を判定
