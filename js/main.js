@@ -28,7 +28,7 @@ $(function () {
   // ローディング
   setTimeout(function() {
     $('.loader').fadeOut(500);
-  }, 100000); // 5秒後にfadeOut処理
+  }, 1000); // 5秒後にfadeOut処理
 });
 
 /*===================== Navbarのコーディング ===================== */
