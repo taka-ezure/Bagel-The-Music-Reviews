@@ -49,13 +49,11 @@ $('.menu-trigger').on('click', function () {
 var wrapper = $(".wrapper");
 $(window).on('load scroll', function () {
   if ($(this).scrollTop() > 1 && wrapper.hasClass('is-fixed') == false) {
-    wrapper.css("background-color", "#1C2C27");
-    $('#yoko_logo').css('display', 'block');
     wrapper.addClass('is-fixed');
+    $('#yoko_logo').css('display', 'block');
   }
   else if ($(this).scrollTop() < 1 && wrapper.hasClass('is-fixed') == true) {
     wrapper.removeClass('is-fixed');
-    wrapper.css("background-color", "transparent");
     $('#yoko_logo').css('display', 'none');
   }
 });
