@@ -42,7 +42,7 @@ body {
   position: absolute;
   top: 15.49px;
   right: 24px;
-  z-index: 6;
+  z-index: 4;
 }
 
 .row{
@@ -243,7 +243,7 @@ nav {
   position: fixed;
   top: -100px;
   left: 0;
-  z-index: 80;
+  z-index: 90;
   transform: translate(-350px);
   transition: all .5s;
 }

@@ -1,6 +1,8 @@
 var sclTop
 var target
 var modal
+var headerH = $('.kv-wrapper').outerHeight(true);
+
 $(function () {
   $('.btn-more').on('click', function () {
     target = $(this).data('target');
@@ -48,11 +50,11 @@ $('.menu-trigger').on('click', function () {
 /*===================== 固定バーのコーディング ===================== */
 var wrapper = $(".wrapper");
 $(window).on('load scroll', function () {
-  if ($(this).scrollTop() > 1 && wrapper.hasClass('is-fixed') == false) {
+  if ($(this).scrollTop() > headerH && wrapper.hasClass('is-fixed') == false) {
     wrapper.addClass('is-fixed');
     $('#yoko_logo').css('display', 'block');
   }
-  else if ($(this).scrollTop() < 1 && wrapper.hasClass('is-fixed') == true) {
+  else if ($(this).scrollTop() < headerH && wrapper.hasClass('is-fixed') == true) {
     wrapper.removeClass('is-fixed');
     $('#yoko_logo').css('display', 'none');
   }
