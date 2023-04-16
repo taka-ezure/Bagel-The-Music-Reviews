@@ -203,6 +203,7 @@ body.fixed {
   position: absolute;
   top: 14px;
   display: none;
+  transition: all 0.5s;
 }
 
 .wrapper{
