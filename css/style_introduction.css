@@ -8,10 +8,14 @@ body {
 }
 
 .statement {
-  position: absolute;
-  left: 6.5%;
-  top: 12%;
+  margin-top: 61px;
+  margin-left: 24px;
   width: 78.6%;
+}
+
+.container{
+  padding: 0;
+  margin: 0;
 }
 
 .text p{
@@ -31,3 +35,9 @@ body {
   font-weight: 500;
 }
 
+#footer_intro {
+  width: 231.42px;
+  margin: 10% 0px 8%;
+  position: relative;
+  bottom: 5%;
+}
