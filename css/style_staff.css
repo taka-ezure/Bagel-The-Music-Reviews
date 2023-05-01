@@ -8,9 +8,8 @@ body {
 }
 
 .editors_contributor {
-  position: absolute;
-  left: 6.5%;
-  top: 12%;
+  margin-top: 61px;
+  margin-left: 24px;
   color: #fff;
   font-size: 12px;
 }
