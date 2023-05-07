@@ -13,6 +13,13 @@ body {
   width: 78.6%;
 }
 
+.author_intro{
+  font-size: 12px;
+  margin-top: 16px;
+  text-align: left;
+  color: #1EFE00;
+}
+
 .container{
   padding: 0;
   margin: 0;
