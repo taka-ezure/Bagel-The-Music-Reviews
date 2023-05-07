@@ -76,6 +76,18 @@ body {
   text-align: justify;
 }
 
+.author{
+  font-size: 12px;
+  text-align: left;
+  padding-left:20.7px;
+  color: #1EFE00;
+}
+
+.author p{
+  margin: 0;
+}
+
+
 /* 背景固定対応（3/18）
 ========================== */
 
