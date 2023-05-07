@@ -26,32 +26,10 @@ $(function () {
     // $('body').css('position', 'static'); // 本文の縦スクロールを無効
     // $(window).scrollTop(sclTop);  // 本文の縦スクロールを無効
   });
+});
 
-  var flg = null;
-  var check_access = function () {
-    // ★sessionStorageの値を判定
-    if (sessionStorage.getItem('access_flg')) {
-      // 2回目以降
-      flg = 1;
-    } else {
-      // 1回目
-      sessionStorage.setItem('access_flg', true);
-      flg = 0
-    }
-    return flg;
-  }
-
-  var $i = check_access();
-  if($i == 0){
-    // 1回目アクセスの処理
-  }else{
-    // 2回目アクセスの処理
-  }
-
-  // ローディング
-  setTimeout(function() {
-    $('.loader').fadeOut(500);
-  }, 1000); // 5秒後にfadeOut処理
+$(window).on('load',function(){
+  $(".loader").addClass("completed")
 });
 
 /*===================== Navbarのコーディング ===================== */
@@ -109,5 +87,10 @@ $(window).on('load scroll', function () {
 //     // 2回目アクセスの処理
 //   }
 // })
+
+  // ローディング
+  // setTimeout(function() {
+  //   $('.loader').fadeOut(500);
+  // }, 1000); 
  
  /*===================== ローディングのコーディング ===================== */

@@ -294,6 +294,11 @@ nav ul {
   align-items: center;
 }
 
+.completed {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .loader h5{
   color: #1EFE00;
 }
