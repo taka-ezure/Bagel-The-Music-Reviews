@@ -29,7 +29,7 @@ $(function () {
 });
 
 $(window).on('load',function(){
-  $(".loader").addClass("completed")
+  $(".loader").addClass("completed");
 });
 
 /*===================== Navbarのコーディング ===================== */
