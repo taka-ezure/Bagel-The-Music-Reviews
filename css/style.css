@@ -16,10 +16,21 @@ body {
   height: 100svh;
 } */
 .carousel-inner img{
-  height: 103svh;
+  height: 100svh;
 }
 
 
+#kv {
+  height: 299.02px;
+  width: 142.9px;
+  height: 252.41px;
+  bottom: 3%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* 
+スクロールバー削除
 #kv {
   height: 299.02px;
   width: 142.9px;
@@ -34,7 +45,7 @@ body {
   bottom: -108.1px;
   position: absolute;
   z-index: 1;
-}
+} */
 
 #message {
   width: 10.48px;
