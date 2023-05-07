@@ -297,6 +297,7 @@ nav ul {
 .completed {
   opacity: 0;
   visibility: hidden;
+  transition:0.5s;
 }
 
 .loader h5{
