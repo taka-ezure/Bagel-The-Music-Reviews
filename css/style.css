@@ -17,6 +17,7 @@ body {
 } */
 .carousel-inner img{
   height: 100svh;
+  height: 100vh;
 }
 
 
@@ -136,6 +137,9 @@ body.fixed {
   background-color: black;
   overflow-y: scroll;
   overflow-x: hidden;
+
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
   /* -webkit-overflow-scrolling: touch; */
   /* 慣性スクロール */
 }
@@ -162,6 +166,9 @@ body.fixed {
   background-color: transparent;
   /* ボタン背景を透明に */
   cursor: pointer;
+
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
 }
 
 
@@ -169,6 +176,8 @@ body.fixed {
 
 #delete_nav {
   transform: translate(-500px);
+  -webkit-backface-visibility:hidden;
+backface-visibility:hidden;
 }
 
 .menu-trigger.active {
@@ -185,6 +194,8 @@ body.fixed {
   top: 30px;
   transform: translateZ(0);
   transition:  .5s;
+  -webkit-backface-visibility:hidden;
+backface-visibility:hidden;
 }
 
 .menu-trigger.active #nav_btn {
@@ -269,6 +280,8 @@ nav {
   z-index: 90;
   transform: translate(-350px);
   transition:  .5s;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
 }
 
 nav.open {
