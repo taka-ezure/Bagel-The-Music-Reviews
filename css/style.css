@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('resource/NotoSansJP-VariableFont_wght.ttf') format("truetype");
+}
 body {
   background-color: #1C2C27;
   font-family: 'Noto Sans JP', sans-serif;
