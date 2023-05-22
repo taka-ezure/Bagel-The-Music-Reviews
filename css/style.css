@@ -193,7 +193,7 @@ body.fixed {
   display: none;
 }
 
-.menu-trigger {
+/* .menu-trigger { */
   /* transition:  .5s; */
   /* width: 23.8px;
   height: 24.6px; */
@@ -202,7 +202,7 @@ body.fixed {
   left: 6.5%; */
   /* margin-top: 13.1px;
   margin-left: 24px; */
-}
+/* } */
 
 #nav_btn {
   position: absolute;
