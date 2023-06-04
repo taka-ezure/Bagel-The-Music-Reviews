@@ -8,6 +8,16 @@ body {
   overflow-x: hidden;
 }
 
+@media (min-width: 1000px) {
+  .col-lg-15 {
+    width: 20%;
+    flex: 0 0 20%;
+  }
+  #pool{
+    display: none;
+  }
+}
+
 .iOS_body{
   /* overflow-w: hidden; */
   overflow-x: hidden;
