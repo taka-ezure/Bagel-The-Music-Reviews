@@ -2,6 +2,14 @@ body {
   background-color: #535353;
 }
 
+@media (min-width: 800px) {
+  #footer_img {
+    position: absolute;
+    bottom: 5%;
+  }
+}
+
+
 /* navbar 背景色部分 */
 .overlay.open {
   background-color: #535353;
@@ -42,9 +50,6 @@ body {
   font-weight: 500;
 }
 
-#footer_intro {
+#footer_img {
   width: 231.42px;
-  margin: 10% 0px 8%;
-  position: relative;
-  bottom: 5%;
 }

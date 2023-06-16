@@ -18,6 +18,7 @@ body {
   }
 }
 
+
 .iOS_body{
   /* overflow-w: hidden; */
   overflow-x: hidden;
@@ -187,11 +188,22 @@ body.fixed {
   z-index: 100;
 }
 
+#delete_btn {
+  width: 53.35px;
+  height: 53.35px;
+}
+
+.menu-trigger{
+    margin-top: 13.1px;
+    margin-left: 24px;
+    height: 24.6px;
+}
+
 .menu-trigger.active #delete_nav {
   display: initial;
   position: fixed;
-  width: 53.35px;
-  height: 53.35px;
+  left: 270px;
+  top: 30px;
   z-index: 200;
   left: 270px;
   top: 30px;
@@ -203,21 +215,13 @@ body.fixed {
   display: none;
 }
 
-.menu-trigger {
-  /* transition:  .5s; */
-  width: 23.8px;
-  height: 24.6px;
-  /* position: absolute;
-  top: 25px;
-  left: 6.5%; */
-  margin-top: 13.1px;
-  margin-left: 24px;
-}
-
 #nav_btn {
   width: 23.8px;
   height: 24.6px;
   z-index:  5;
+  position: absolute;
+  top: 15.49px;
+  left: 24px;
 }
 
 #delete_article {
