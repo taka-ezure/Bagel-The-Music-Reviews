@@ -33,6 +33,8 @@ body {
 }
 
 #new_review{
+  z-index: 100;
+  position: relative;
 }
 
 
