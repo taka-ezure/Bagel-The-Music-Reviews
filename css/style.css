@@ -32,15 +32,6 @@ body {
   height: 100svh;
 }
 
-#new_review{
-  z-index: 100;
-  position: absolute;
-  width: 100px;
-  height: 50px;
-  top: 20%;
-}
-
-
 #kv {
   height: 299.02px;
   width: 142.9px;
