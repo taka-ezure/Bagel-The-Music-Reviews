@@ -7,10 +7,10 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   overflow-x: hidden;
 }
-
+/* 
 #new_album{
   width: 300%;
-}
+} */
 
 @media (min-width: 1000px) {
   .col-lg-15 {
