@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+#new_album{
+  width: 100px;
+}
+
 @media (min-width: 1000px) {
   .col-lg-15 {
     width: 20%;
