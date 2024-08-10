@@ -2,6 +2,14 @@ body {
   background-color: #1C2C27;
 }
 
+@media (min-width: 800px) {
+  #footer_img {
+    position: absolute;
+    bottom: 5%;
+  }
+}
+
+
 /* navbar 背景色部分 */
 .overlay.open {
   background-color: #1C2C27;
